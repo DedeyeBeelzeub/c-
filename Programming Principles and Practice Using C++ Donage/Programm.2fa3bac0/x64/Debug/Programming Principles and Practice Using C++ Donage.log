@@ -1,0 +1,2 @@
+﻿main.obj : error LNK2019: unresolved external symbol "void __cdecl register_all_pages(void)" (?register_all_pages@@YAXXZ) referenced in function main
+D:\Programming Principles and Practice Using C++ Donage\x64\Debug\Programming Principles and Practice Using C++ Donage.exe : fatal error LNK1120: 1 unresolved externals

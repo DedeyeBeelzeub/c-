@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Chapter1.cpp">
+      <UniqueIdentifier>{c938374b-2c13-45ad-af97-2ab1dc84e94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter2cpp">
+      <UniqueIdentifier>{dca27ab7-af1c-4df5-b071-b530c07ba6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter3.cpp">
+      <UniqueIdentifier>{b3152b73-b723-4b34-9877-bf73a1281a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System.cpp">
+      <UniqueIdentifier>{c50f7d11-41e0-48f0-8c76-de9999374a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System.h">
+      <UniqueIdentifier>{8ceae6e3-206f-4166-a55d-2d46a6170d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chapter1.h">
+      <UniqueIdentifier>{1da19f8a-7e51-4b1d-953e-bcca7aa6f3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chapter2.h">
+      <UniqueIdentifier>{1334adbd-81c6-4712-b487-aca2b1da1864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chapter3.h">
+      <UniqueIdentifier>{be6e26ea-ded0-4868-b1ce-e7182c54eaa3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapter_1\Chapter_1_H\chapter_1.h">
+      <Filter>Header Files\Chapter1.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter_1\Chapter_1_H\chapter_1_exercises_1.h">
+      <Filter>Header Files\Chapter1.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter_2\Chapter_2_H\chapter_2.h">
+      <Filter>Header Files\Chapter2.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter_2\Chapter_2_H\chapter_2_exercises_1.h">
+      <Filter>Header Files\Chapter2.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter_3\Chapter_3_H\chapter_3.h">
+      <Filter>Header Files\Chapter3.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter_3\Chapter_3_H\chapter_3_exercises_1.h">
+      <Filter>Header Files\Chapter3.h</Filter>
+    </ClInclude>
+    <ClInclude Include="System files\menu.h">
+      <Filter>Header Files\System.h</Filter>
+    </ClInclude>
+    <ClInclude Include="System files\register_all_pages.h">
+      <Filter>Header Files\System.h</Filter>
+    </ClInclude>
+    <ClInclude Include="System files\register_all_pages.cpp">
+      <Filter>Source Files\System.cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System files\main.cpp">
+      <Filter>Source Files\System.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="System files\menu.cpp">
+      <Filter>Source Files\System.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter_3\Chapter_3_CPP\chapter_3_exercises_1.cpp">
+      <Filter>Source Files\Chapter3.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter_2\Chapter_2_CPP\chapter_2_exercises_1.cpp">
+      <Filter>Source Files\Chapter2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter_1\Chapter_1_CPP\chapter_1_exercises_1.cpp">
+      <Filter>Source Files\Chapter1.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
+</Project>
